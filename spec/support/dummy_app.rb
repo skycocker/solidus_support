@@ -4,7 +4,7 @@ ENV['DISABLE_DATABASE_ENVIRONMENT_CHECK'] = '1'
 Bundler.setup
 
 require 'rails'
-require 'solidus_core'
+require 'solidus_core_devise_token_auth'
 
 Bundler.require(:default, :test)
 

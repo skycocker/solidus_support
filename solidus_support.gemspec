@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'solidus_support/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'solidus_support'
+  spec.name          = 'solidus_support_devise_token_auth'
   spec.version       = SolidusSupport::VERSION
-  spec.authors       = ['John Hawthorn']
-  spec.email         = ['john@stembolt.com']
+  spec.authors       = ['John Hawthorn', 'Michał Siwek (skycocker)']
+  spec.email         = ['john@stembolt.com', 'mike21@aol.pl']
 
-  spec.summary       = 'A common functionality for solidus extensions'
+  spec.summary       = 'A common functionality for solidus extensions (devise_token_auth revised version)'
   spec.description   = 'Collection of common functionality for solidus extensions'
-  spec.homepage      = 'https://solidus.io'
+  spec.homepage      = 'https://github.com/skycocker/solidus_support'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ['lib']
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-rails', '~> 3.7'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-rspec'
-  spec.add_development_dependency 'solidus_core'
+  spec.add_development_dependency 'solidus_core_devise_token_auth'
 end
