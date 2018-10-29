@@ -1,3 +1,7 @@
+# Fork summary
+
+This is a [solidus_devise_token_auth](https://github.com/skycocker/solidus_devise_token_auth) compatible version of solidus_support gem.
+
 # SolidusSupport
 
 This gem holds some common functionality for Solidus Extensions.
